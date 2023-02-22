@@ -1,0 +1,148 @@
+body {
+
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    background-color: black;display:flex;justify-content: center; align-items: center; height: 200vh; flex-direction: column;
+}
+*{font-family: 'Karantina',cursive;  }
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-weight: bold;
+    color: #4A86B5;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-weight: 300;
+    color: #C4C4C4;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+h5 {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover {
+    color: #B54A51;
+}
+strong {
+    font-weight: bold;
+}
+small {
+    font-size: 13px;
+    color: rgb(199, 199, 199);
+    font-style: italic;
+}
+.clear {
+    clear: both;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+header {
+    height: 120px;
+}
+header h1 {
+    float: left;
+    margin-top: 32px;
+}
+header h1 .color {
+    color: #93c4ce;
+}
+header nav {
+    float: right;
+}
+header nav ul li {
+    display: inline-block;
+    margin-top: 50px;
+}
+header nav ul li a {
+    color:rgb(182, 182, 182);
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+}
+
+form
+{
+width:300px;border:3px solid rgb(177,142,142);padding:20px;background:#4f1a12;border-radius:20px;
+height: 150vh;
+}
+h2{text-align: center;margin-bottom: 40px;}
+input{display: block; border: 2px solid #ccc;width: 95%;padding: 10px;margin: 10px auto;border-radius: 5px;}
+label {color: #888;font-size: 18px;padding: 10px;}
+button {float: right;background:#1b6c79;padding: 10px 15px;color: #fff;border-radius: 5px;margin-right: 10px;border: none;}
+button:hover{opacity: .10;}
+a{float: left;color: #fff;}
+#hero-image {
+    height: 580px;
+    padding-top: 1px;   
+}
+#hero-image h1 {
+    margin: 180px 0 40px 0;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#hero-image h2
+{
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button-1 {
+    display: block;
+    text-align: center;
+    background: #4A86B5;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.button-1:hover {
+    color: #fff;
+}
+footer {
+    text-align: center;
+}
+#footer-info {
+    text-align: center;
+    margin-top: 10px;
+}
